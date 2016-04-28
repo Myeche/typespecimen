@@ -1,40 +1,35 @@
-#idpinned-trigger2{
-    position:relative;
+#idpinned-trigger2 {
+    position: relative;
 }
+
 body {
     background: #f1e352;
     font-family: "lato", Arial, sans-serif;
-    }
-.bigtitle{
-    font-weight:300;
+}
+
+.bigtitle {
+    font-weight: 300;
     font-size: 5em;
-    color:#029fab;
-    margin:0px 50px;
+    color: #029fab;
+    margin: 0px 50px;
 }
-.subtitle{
-    font-weight:300;
+
+.subtitle {
+    font-weight: 300;
     font-size: 2em;
-    color:#da1d5e;
-    margin:0px 50px;
+    color: #da1d5e;
+    margin: 0px 50px;
 }
-.vine{
-    font-weight:800;
-    font-size: 4em;
-     position: absolute;
-    top: 50%;
-    
+
+.flower {
+    font-weight: 100;
+    font-size: 3em;
+    position: absolute;
+    top: 70%;
+    left: 80%;
 }
-.straight{
-    float:right;
-   }
-.upsidedown{
--webkit-transform:rotate(-180deg);
--moz-transform:rotate(-180deg); 
--o-transform:rotate(-180deg); 
-transform:rotate(-180deg);
-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
-filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
-}
+
+
 /*
 body,
 html {
