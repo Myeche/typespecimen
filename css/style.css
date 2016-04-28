@@ -1,3 +1,6 @@
+#idpinned-trigger2{
+    position:relative;
+}
 body {
     background: #f1e352;
     font-family: "lato", Arial, sans-serif;
@@ -13,6 +16,24 @@ body {
     font-size: 2em;
     color:#da1d5e;
     margin:0px 50px;
+}
+.vine{
+    font-weight:800;
+    font-size: 4em;
+     position: absolute;
+    top: 50%;
+    
+}
+.straight{
+    float:right;
+   }
+.upsidedown{
+-webkit-transform:rotate(-180deg);
+-moz-transform:rotate(-180deg); 
+-o-transform:rotate(-180deg); 
+transform:rotate(-180deg);
+ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 }
 /*
 body,
