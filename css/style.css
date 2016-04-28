@@ -1,0 +1,151 @@
+body {
+    background: #f1e352;
+    font-family: "lato", Arial, sans-serif;
+    }
+.bigtitle{
+    font-weight:300;
+    font-size: 5em;
+    color:#029fab;
+    margin:0px 50px;
+}
+.subtitle{
+    font-weight:300;
+    font-size: 2em;
+    color:#da1d5e;
+    margin:0px 50px;
+}
+/*
+body,
+html {
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 5em;
+    color: #029fab;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 2em;
+    color: #da1d5e;
+    margin-top: 5px;
+}
+
+.noselect * {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+header {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+}
+
+.container {
+    height: 100%;
+    margin: 0 auto;
+    max-width: 900px;
+    position: relative;
+    width: 100%;
+}
+
+#content-wrapper {
+    height: 100%;
+    min-height: 500px;
+    width: 100%;
+}
+
+.scroll-magic-section {
+    height: 100%;
+}
+
+#pin {
+    overflow: hidden;
+    width: 100%;
+}
+
+#pin h3 {
+    margin: -40px 0 0 0;
+    position: relative;
+    top: 50%;
+    font-size: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: #EFEFEF;
+}
+
+#wipe {
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    width: 100%;
+    background: #2e639e;
+}
+
+#wipe h3 {
+    color: white;
+}
+
+#second-wipe {
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    width: 100%;
+    background: red;
+}
+
+#slide {
+    height: 100%;
+    position: absolute;
+    top: -100%;
+    width: 100%;
+    background: #c7e1ff;
+}
+
+#slide h3 {
+    position: absolute;
+    width: 100%;
+    color: black;
+}
+
+#slide-dos {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    width: 100%;
+    background: tan;
+}
+
+#unpin {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: maroon;
+}
+*/

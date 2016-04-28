@@ -1,0 +1,52 @@
+!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>HowTo : ScrollMagic Paneling</title>
+    <script src="http://s.codepen.io/assets/libs/modernizr.js" type="text/javascript"></script>
+
+<meta name="viewport" content="width=device-width, user-scalable=1, initial-scale=1">
+    
+    <link rel="stylesheet" href="css/normalize.css">
+
+<link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+       <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/fadein.css">
+
+  </head>
+
+<header role="banner">
+  <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/392/demo_tophat.png" width="64" height="auto" alt="scroll magic">
+</header>
+
+<main class="full-screen" role="main">
+  <section class="full-screen blue">
+    <div>
+      <h1>Basic Pin</h1>
+      <p>Elements are pinned for their respective pixel value set as the duration and released again.</p>
+    </div>
+  </section>
+
+  <section id="pinned-trigger1" class="full-screen orange">
+    <div id="pinned-element1">
+      <p>This element will be pinned once it's trigger hits the top of the viewport and will have a duration of window height minus 100</p>
+    </div> 
+  </section>
+
+  <section id="pinned-trigger2" class="full-screen red">
+    <div id="pinned-element2">
+      <p>This element will be pinned for a duration of 150px</p>
+    </div>
+  </section>
+  
+  <section class="full-screen blue">
+    <div>
+      <p>Section Four!</p>
+    </div>
+  </section>
+</main>
+</body>
