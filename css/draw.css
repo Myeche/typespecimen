@@ -6,17 +6,19 @@
 
 svg {
   position: fixed;
-  margin: auto;
+  margin: 0;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  width: 20%;
+  width: 45%;
   max-width: 640px;
+    fill:#ffffff;
 }
 
 .path{
   stroke-dashoffset: 1000;
   stroke-dasharray: 1000;
+     stroke:#fff;
 }
 
