@@ -19,6 +19,18 @@ svg {
 .path{
   stroke-dashoffset: 1000;
   stroke-dasharray: 1000;
-     stroke:#fff;
+     stroke:#f56d13;
 }
 
+.fl2 svg{
+  position: fixed;
+  margin: 0;
+  top: 45%;
+  left: 60%;
+  right: 0;
+  bottom: 0;
+    width: 40%;
+  max-width: 640px;
+    fill:#ffffff;
+
+}

@@ -8,15 +8,15 @@ body {
 }
 
 .bigtitle {
-    font-weight: 300;
-    font-size: 5em;
+    font-weight: 100;
+    font-size: 15em;
     color: #029fab;
-    margin: 0px 50px;
+    margin: 0% 5%;
 }
 
 .subtitle {
     font-weight: 300;
-    font-size: 2em;
+    font-size: 5em;
     color: #da1d5e;
     margin: 0px 50px;
 }
