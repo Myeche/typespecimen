@@ -18,7 +18,7 @@ body {
     font-weight: 300;
     font-size: 5em;
     color: #da1d5e;
-    margin: 0px 50px;
+    margin: 0% 6%;
 }
 
 .flower {
@@ -28,6 +28,114 @@ body {
     top: 70%;
     left: 80%;
 }
+
+#slide-dos {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    width: 100%;
+    background: none;
+}
+/*pannel*/
+
+
+
+
+/* ScrollMagic Containers
+*/ 
+
+.container {
+    height: 100%;
+    margin: 0 auto;
+    max-width: 900px;
+    position: relative;
+    width: 100%;
+}
+
+#content-wrapper {
+    height: 100%;
+    min-height: 500px;
+    width: 100%;
+}
+
+.scroll-magic-section {
+    height: 100%;
+}
+
+/* ScrollMagic Pin Panel
+*/ 
+#pin {
+    overflow: hidden;
+    width: 100%;
+
+    h3 {
+        margin: -40px 0 0 0;
+        position: relative;
+        top: 50%;
+        font-size: 80px;
+        line-height: 80px;
+        text-align: center;
+    }
+}
+
+
+/*ScrollMagic wipe Panels*/
+#wipe {
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateY(100%);
+    width: 100%;
+    background: #f1e352;
+
+    h3 {
+        color: white;
+    }
+}
+
+#second-wipe {
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateY(100%);
+    width: 100%;
+    background: red;
+}
+
+
+/*ScrollMagic Slide Panels*/
+
+
+#slide {
+    height: 100%;
+    position: absolute;
+    top: -100%;
+    width: 100%;
+    background: #c7e1ff;
+
+    h3 {
+        position: absolute;
+        width: 100%;
+    }
+}
+
+#slide-dos {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    width: 100%;
+    background: tan;
+}
+
+
 
 
 /*
