@@ -40,7 +40,7 @@ h2{
 #left-col{
 	width:35%;
 	float:left;
-    opacity: 0.7;
+    
 }
 #left-col #page-title{
 	width:100%;
@@ -261,4 +261,7 @@ h2{
     font-weight: 300;
     text-align: left;
   
+}
+.top{
+    height: 50%;
 }
