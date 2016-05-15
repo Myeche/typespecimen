@@ -191,6 +191,14 @@ h2{
     margin:20px;
   background: #f54713;
 }
+.ligtitle{
+    font-family: 'lato',sans-serif;
+    font-size: 3em;
+    text-align: left;
+    color: #1cb1a9;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
 .ligature{
  
     color: #ffffff;
