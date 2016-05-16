@@ -274,7 +274,21 @@ header {
 }
 */
 .button{
-    margin-left: 53px;
-   line-height: 50px;
-      color: #029fab;
+      font-size: 1em;
+  font-weight: 400;
+  text-transform: uppercase;
+  border-radius: 0;
+  letter-spacing: 1px;
+  padding: 15px 30px;
+  -webkit-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+        background-color: #1fb1a8;
+  border: 1px solid white;
+    color:#fff;
+    font-family: 'Lato', sans-serif;
+}
+.button:hover, .button:focus {
+  background-color: #fff;
+  color: #1fb1a8;
 }
