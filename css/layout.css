@@ -111,7 +111,7 @@ h2{
 	font-size:12px;
 	color:#FFFFFF;
 	float:left;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
 }
 .texts p{
 	margin:0;
@@ -155,33 +155,39 @@ h2{
 {
     font-family: 'Lato', sans-serif;
     font-weight: 100;
+    color: #2a2a2a;
 }
 
 #light
 {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
+    color: #2a2a2a;
 }
 #normal
 {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
+    color: #2a2a2a;
 }
 #bold
 {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
+    color: #2a2a2a;
 }
 #ultrabold
 {
     font-family: 'Lato', sans-serif;
     font-weight: 900;
+    color: #2a2a2a;
 }
 #italic
 {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-style:italic;
+    color: #2a2a2a;
 }
 /*circle*/
 .container {
@@ -422,6 +428,7 @@ li.up .avatar {
     text-align: left;
     margin-left: 15%;
     width: 120%;
+    color: black;
 }
 
 .ptime2 {
@@ -430,6 +437,7 @@ li.up .avatar {
     margin-left: 70%;
     width: 120%;
     position: absolute;
+    color: black;
 }
 
 .display{
