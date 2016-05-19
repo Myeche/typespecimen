@@ -297,20 +297,14 @@ font-family: 'Lato', sans-serif;
         font-size: 5em;
 	letter-spacing: .2em;
 	line-height: 1.1em;
-    margin-top: 40%;
+    margin-top: 20%;
 	text-align: left;
     color:#863c96;
 	
 }
 
 /*Timeline*/
-#time body {
-  margin: 0;
-  padding: 0 20px;
-  color: #f98262;
-  background: #fffff0;
-    font-family: 'lato', sans-serif;
-}
+
 
  #timeline {
   list-style: none;
@@ -389,10 +383,22 @@ li.up .content:before {
   border-left: 4px solid #f98262;
 }
 li.up .date {
-  margin-top: 106px;
+  margin-top: 90px;
+    color: #1cb1a9;
+    font-size: 300px;
+    font-weight: 700;
 }
+
+
+
 li.down .date {
-  margin-top: -60px;
+  margin-top: -70px;
+}
+.pdate {
+
+    color: #1cb1a9;
+    font-size: 2.5em;
+    font-weight: 700;
 }
 li.up .avatar {
   background: #fffff0;
@@ -412,9 +418,23 @@ li.up .avatar {
 }
 
 .ptime{
-    margin-top: 25%;
+    margin-top: 30%;
     text-align: left;
     margin-left: 15%;
     width: 120%;
 }
 
+.ptime2 {
+    margin-top: -40px;
+    text-align: left;
+    margin-left: 70%;
+    width: 120%;
+    position: absolute;
+}
+
+.display{
+    font-family: 'Lato', sans-serif;
+    font-size: 3.5em;
+    text-align: left;
+   
+}
