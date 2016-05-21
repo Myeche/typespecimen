@@ -185,7 +185,7 @@ h2{
 #italic
 {
     font-family: 'Lato', sans-serif;
-    font-weight: 300;
+  
     font-style:italic;
     color: #2a2a2a;
 }
@@ -477,6 +477,8 @@ li.up .avatar {
     font-weight: 700;
     color: #fff;
       margin-bottom: 2px;
+    margin-bottom: 1.2em;
+  
 }
 .preform a{
      font-family: 'Lato', sans-serif;
@@ -484,13 +486,14 @@ li.up .avatar {
     line-height: 2em;
     text-align: left;
     font-weight: 700;
+    color:#863C96;
   
     
 }
 .preform a:hover{
   background-color: transparent;
     text-decoration: none;
-    color: orange;
+    color: #F04B23;
     
 }
 .ending{

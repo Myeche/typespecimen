@@ -39,7 +39,7 @@ label{
   -webkit-transition: all 200ms ease-in;
   -moz-transition: all 200ms ease-in;
   transition: all 200ms ease-in;
-        background-color: #1fb1a8;
+        background-color: #F04B23;
   border: 1px solid white;
     color:#fff;
     font-family: 'Lato', sans-serif;
@@ -51,7 +51,7 @@ label{
 
 a, a:visited {
 	text-decoration: none;
-	color: #2e639e;
+	
 }
 a:hover {
 	text-decoration: underline;
